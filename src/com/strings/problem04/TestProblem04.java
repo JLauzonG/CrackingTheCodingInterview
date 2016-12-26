@@ -1,25 +1,25 @@
-package com.strings.problem01;
+package com.strings.problem04;
 
 import static org.junit.Assert.*;
 
 import org.junit.Ignore;
 import org.junit.Test;
 
-public class TestProblem01 {
+public class TestProblem04 {
 
 	@Test
 	public void testJeremy() {
-		assertTrue(SolutionJeremy.isUnique("abcdefghijklmnop")); 
-		assertFalse(SolutionJeremy.isUnique("abcdeffghijklmop")); 
+		assertTrue(SolutionJeremy.isPalindromePermutation("Tact Coa"));
+		assertFalse(SolutionJeremy.isPalindromePermutation("lavall")); 
 	}
 	
 	@Ignore
 	public void testIvelina() {
-		
+
 	}
 	
 	@Ignore
 	public void testArnaud() {
-		
+	
 	}
 }

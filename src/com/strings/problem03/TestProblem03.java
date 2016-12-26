@@ -1,16 +1,15 @@
-package com.strings.problem01;
+package com.strings.problem03;
 
 import static org.junit.Assert.*;
 
 import org.junit.Ignore;
 import org.junit.Test;
 
-public class TestProblem01 {
+public class TestProblem03 {
 
 	@Test
 	public void testJeremy() {
-		assertTrue(SolutionJeremy.isUnique("abcdefghijklmnop")); 
-		assertFalse(SolutionJeremy.isUnique("abcdeffghijklmop")); 
+		assertEquals(SolutionJeremy.URLify("Mr John Smith", ' ', "%20"), "Mr%20John%20Smith");
 	}
 	
 	@Ignore
@@ -22,4 +21,5 @@ public class TestProblem01 {
 	public void testArnaud() {
 		
 	}
+
 }

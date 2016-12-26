@@ -1,16 +1,16 @@
-package com.strings.problem01;
+package com.strings.problem06;
 
 import static org.junit.Assert.*;
 
 import org.junit.Ignore;
 import org.junit.Test;
 
-public class TestProblem01 {
+public class TestProblem06 {
 
 	@Test
 	public void testJeremy() {
-		assertTrue(SolutionJeremy.isUnique("abcdefghijklmnop")); 
-		assertFalse(SolutionJeremy.isUnique("abcdeffghijklmop")); 
+		assertEquals(SolutionJeremy.compressString("aabcccccaaa"), "a2b1c5a3"); 
+		assertEquals(SolutionJeremy.compressString("abc"), "abc"); 
 	}
 	
 	@Ignore
@@ -18,7 +18,7 @@ public class TestProblem01 {
 		
 	}
 	
-	@Ignore
+	@Ignore 
 	public void testArnaud() {
 		
 	}

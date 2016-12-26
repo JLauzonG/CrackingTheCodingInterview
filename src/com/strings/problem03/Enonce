@@ -1,0 +1,7 @@
+URLify: Write a method to replace all spaces in a string with '%20'. If implementing in JAVA, use
+a character array to perform this operation. 
+
+EXAMPLE: 
+
+Input: "Mr John Smith" 
+Output: "Mr%20John%20Smith" 
