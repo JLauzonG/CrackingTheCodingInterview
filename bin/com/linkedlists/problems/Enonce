@@ -1,0 +1,6 @@
+Linked List: Implement a singly linked list with the following methods: 
+
+--> add
+--> get
+--> delete 
+--> getSize

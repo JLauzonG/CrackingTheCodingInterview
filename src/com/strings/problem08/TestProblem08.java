@@ -11,7 +11,8 @@ public class TestProblem08 {
 		}
 		
 		matrix[1][1] = 0; 
-		matrix[8][10] = 0; 
+		matrix[1][7] = 0; 
+		matrix[8][9] = 0; 
 		
 		return matrix; 
 	}
