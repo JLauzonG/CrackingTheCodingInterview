@@ -35,6 +35,15 @@ public class TestProblem08 {
 		System.out.println();
 	}
 	
+	public static void testArnaud() {
+		int[][] matrixArnaud = generateMatrix(20, 20);
+		displayMatrix(matrixArnaud);
+		System.out.println();
+		SolutionArnaud.createZeroMatrix(20, 20, matrixArnaud);
+		displayMatrix(matrixArnaud);
+		System.out.println();
+	}
+
 	public static void main(String[] args) {
 		// Jeremy
 		testJeremy(); 
@@ -43,6 +52,6 @@ public class TestProblem08 {
 		// Insert code here. 
 		
 		// Arnaud 
-		// Insert code here. 
+		testArnaud();
 	}
 }
